@@ -24,39 +24,32 @@
     --body : black;
 }
 
-picture#semantic {
-    display: grid;
-    gap: 2rem;
-    justify-content: start;
+body#home {
 
-    padding: 2rem;
+    .guide-links {
+        position: fixed;
+        bottom: 0; right: 0;
+        padding: 1rem;
+        background-color: rgb(253, 31, 253);
+        cursor: pointer;
 
-        figure {
-            box-shadow: var(--box-shadow-1);
-            display: flex;
+        nav {
 
-            figcaption {
-                align-self: center;
-                box-shadow: var(--box-shadow-1);
-                margin: 2rem;
-                padding: 2rem;
-                height: calc(100% - 4rem);
-                min-width: calc(30% - 4rem);
+            ul {
 
-                ul {
-                    list-style-type: disc;
-                    display: grid;
-                    gap: 0.2rem;
-                    li {
+                li {
 
-                        a {
-                            padding: 0.2rem 0.4rem;
-                            color: greenyellow;
-                            background-color: black;
+                    a {
+                        color: white;
+                        transition: 0.2s;
+
+                        &:hover {
+                            transform: scale(1.1);
                         }
                     }
                 }
             }
         }
+    }
 }
 
