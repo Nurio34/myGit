@@ -128,6 +128,10 @@ body.guides {
                         &.visible {
                             opacity: 1;
                         }
+
+                        img {
+                            max-height: 95vh;
+                        }
                     }
                 }
             }

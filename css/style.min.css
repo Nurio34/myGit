@@ -399,6 +399,9 @@ body.guides #image-carousel .container .wrapper picture figure {
 body.guides #image-carousel .container .wrapper picture figure.visible {
   opacity: 1;
 }
+body.guides #image-carousel .container .wrapper picture figure img {
+  max-height: 95vh;
+}
 body.guides #toBack {
   position: fixed;
   top: 0;
