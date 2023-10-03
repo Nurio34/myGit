@@ -5,3 +5,7 @@ newWork2 branch added
 Changes on main branch
 ..
 created sideBranch
+...
+everyting RESET and started WORK again
+...
+CREATED newbranch
