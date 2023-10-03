@@ -1,2 +1,4 @@
 
 1.Unexist img link deleted
+2.After i deleted the new03.10 branch in Github, I get in the new03.10 branch again in Git 
+    and looking if pull requests work
