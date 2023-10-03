@@ -3,3 +3,5 @@ Changes to commit without add
 newWork2 branch added
 ...
 Changes on main branch
+..
+created sideBranch
