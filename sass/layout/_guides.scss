@@ -123,7 +123,11 @@ body.guides {
                     figure {
                         position: absolute;
                         opacity: 0;
+                        display: grid;
+                        place-items: center;
                         transition: 0.2s;
+                        max-width: 90%;
+
     
                         &.visible {
                             opacity: 1;

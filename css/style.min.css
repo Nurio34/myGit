@@ -394,7 +394,10 @@ body.guides #image-carousel .container .wrapper picture {
 body.guides #image-carousel .container .wrapper picture figure {
   position: absolute;
   opacity: 0;
+  display: grid;
+  place-items: center;
   transition: 0.2s;
+  max-width: 90%;
 }
 body.guides #image-carousel .container .wrapper picture figure.visible {
   opacity: 1;
